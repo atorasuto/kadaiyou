@@ -4,8 +4,8 @@ header("Content-type: text/html; charset=utf-8");
  
 //データベース接続
 $server = "sv5.php.xdomain.ne.jp";  
-$userName = "acrovision_002"; 
-$password = "AcroXpass2021"; 
+$userName = "acrovision.php.xdomain.jp"; 
+$password = "acrotest"; 
 $dbName = "acrovision_002";
  
 $mysqli = new mysqli($server, $userName, $password, $dbName);
