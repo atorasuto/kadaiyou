@@ -3,7 +3,7 @@
 header("Content-type: text/html; charset=utf-8");
  
 //データベース接続
-$server = "sv5.php.xdomain.ne.jp";  
+$server = "acrovision.php.xdomain.jp";  
 $userName = "acrovision_002"; 
 $password = "AcroXpass2021"; 
 $dbName = "acrovision_002";
