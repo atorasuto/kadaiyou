@@ -2,10 +2,10 @@
  
 function db_connect(){
 	//データベース接続
-	$server = "localhost";  
-	$userName = "root"; 
-	$password = ""; 
-	$dbName = "kadai";
+	$server = "sv5.php.xdomain.ne.jp";  
+	$userName = "acrovision_002"; 
+	$password = "AcroXpass2021"; 
+	$dbName = "acrovision_002";
  
 	$mysqli = new mysqli($server, $userName, $password,$dbName);
  
