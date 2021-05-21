@@ -3,12 +3,12 @@
 header("Content-type: text/html; charset=utf-8");
  
 //データベース接続
-$url = "sv5.php.xdomain.ne.jp";  
-$userName = "acrovision.php.xdomain.jp"; 
-$password = "acrotest"; 
-$dbName = "acrovision_002";
+$host = "sv5.php.xdomain.ne.jp";  
+$username = "acrovision_002"; 
+$passwd = "AcroXpass2021"; 
+$dbname = "acrovision_002";
  
-$mysqli = mysqli_connect($url, $userName, $password, $dbName);
+$mysqli = mysqli_connect($host,$username,$passwd,$dbname);
  
 if ($mysqli->connect_error){
 	echo $mysqli->connect_error;
