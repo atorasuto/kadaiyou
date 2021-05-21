@@ -2,12 +2,12 @@
  
 function db_connect(){
 	//データベース接続
-	$server = "sv5.php.xdomain.ne.jp";  
-	$userName = "acrovision_002"; 
-	$password = "AcroXpass2021"; 
-	$dbName = "acrovision_002";
+	$host = "sv5.php.xdomain.ne.jp";  
+	$username = "acrovision_002"; 
+	$passwd = "AcroXpass2021"; 
+	$dbname = "acrovision_002";
  
-	$mysqli = new mysqli($server, $userName, $password,$dbName);
+	$mysqli = mysqli_connect($host,$username,$passwd,$dbname);
  
 	if ($mysqli->connect_error){
 		echo $mysqli->connect_error;
